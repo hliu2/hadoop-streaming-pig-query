@@ -1,4 +1,4 @@
-# hadoop streaming and pig query
+# Hadoop streaming and pig query
 
 ## Introduction
 * Use hadoop streaming to compare with pig query with the same job. 
