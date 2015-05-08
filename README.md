@@ -1,9 +1,9 @@
 # hadoop_streaming_python
 
 ## Introduction
-*Customer dataset: each line contains: CustID, Name, Age, CountryCode, Salary.
-*Transactions dataset: each line contains: TransID, CustID, TransTotal, TransNumItems, TransDesc.
-*Objective: reports	for	every	customer,	the	number	of	transactions	that	each	customer	did	and	the	total	sum	of	these	transactions. 
+* Customer dataset: each line contains: CustID, Name, Age, CountryCode, Salary.
+* Transactions dataset: each line contains: TransID, CustID, TransTotal, TransNumItems, TransDesc.
+* Objective: reports	for	every	customer,	the	number	of	transactions	that	each	customer	did	and	the	total	sum	of	these	transactions. 
 
 ## Highlights
 * Use hadoop streaming to compare with pig query for the same job. 
