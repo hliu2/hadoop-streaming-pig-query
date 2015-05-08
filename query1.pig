@@ -1,6 +1,8 @@
-/* customer = LOAD '/proj2/customer.txt' USING PigStorage(',') AS (id:int, name:chararray, age:int, countrycode:int, salary:float); */
+customer = LOAD '/proj2/customer.txt' USING PigStorage(',') AS (id:int, 
+            name:chararray, age:int, countrycode:int, salary:float);
 
-transactions = LOAD '/proj2/Transactions.txt' USING PigStorage(',') AS (transid:int, custid:int, transtotal:float, transnumitems:int, transdesc:chararray);
+transactions = LOAD '/proj2/Transactions.txt' USING PigStorage(',') AS (transid:int, custid:int, 
+                transtotal:float, transnumitems:int, transdesc:chararray);
 
 clean1 = FOREACH transactions GENERATE custid, transtotal;
 
