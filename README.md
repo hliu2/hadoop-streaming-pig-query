@@ -1,4 +1,4 @@
-# hadoop_streaming_python
+# hadoop streaming and pig query
 
 ## Introduction
 * Use hadoop streaming to compare with pig query with the same job. 
